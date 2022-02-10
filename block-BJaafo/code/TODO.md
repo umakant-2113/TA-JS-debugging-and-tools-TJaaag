@@ -13,3 +13,23 @@
 2. Write two tests for the above function
 3. Make the first test fail and look at the output
 4. After making the first test fail do you see the output of the second test?
+ 
+let firstName = "umakant ";
+let lastName = "rajput"
+function fullName(){
+   
+   let result =  return firstName+lastName;
+}
+fullName();
+
+let expected= "umakant rajput ";
+if(result !==expected){
+    throw error(`${result} is not equal to ${expected}`)
+}
+
+let amount = 1000
+let tax= 12%
+function totalAmount(){
+    return amount+amount*12/100
+}
+totalAmount();
